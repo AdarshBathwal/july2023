@@ -1,0 +1,28 @@
+package July2023;
+
+public class Static_emp {
+	 int i ;
+	 private String name;
+    static String company = "CGI";	
+    
+    Static_emp(String name, int i){
+    this.name= name;
+    this.i=i;
+    }
+     
+    void display() {
+    	System.out.println("Employee Detail:"+name+" "+i+" "+company);
+    }
+
+	public static void main(String[] args) {
+		Static_emp emp1 = new Static_emp("Adarsh",101);
+		Static_emp emp2 = new Static_emp("Avinash",102);
+		Static_emp emp3 = new Static_emp("Rahul",103);
+		Static_emp emp4 = new Static_emp("Raj",104);
+		emp1.display();
+		emp2.display();
+		emp3.display();
+		emp4.display();
+	}
+
+}

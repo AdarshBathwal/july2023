@@ -1,0 +1,25 @@
+package July2023;
+import java.util.*;
+public class Lab567 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	Scanner Number = new Scanner(System.in);
+	System.out.println("Enter any number");
+	float i = Number.nextFloat();
+	System.out.println("Number="+i);
+	 
+	if (i>0)
+	{
+		System.out.println("Positive Integer");
+	}
+	else
+	{
+		System.out.println("Negative Integer");
+	}
+
+	
+	
+}
+}

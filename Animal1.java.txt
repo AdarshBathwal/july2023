@@ -1,0 +1,17 @@
+package July2023;
+//intializing value in object using refernce variable
+
+public class Animal1 {
+	
+	String color;
+	int age;
+	public static void main (String[] args) {
+		
+		Animal1 buzo = new Animal1();
+		buzo.color="black";
+		buzo.age=12;
+		System.out.println(buzo.color+" "+buzo.age);
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+package July2023;
+
+public class ParaCons_Emp {
+	String Name;
+	int emp_id;
+	
+	ParaCons_Emp(String a , int b)
+	{
+		this.Name = a;
+		this.emp_id = b;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ParaCons_Emp emp1 = new ParaCons_Emp("Adarsh",142);
+		ParaCons_Emp emp2 = new ParaCons_Emp("Sakshi",143);
+		System.out.println("Employee_1 : "+emp1.Name+" "+emp1.emp_id );
+		System.out.println("Employee_2: "+emp2.Name+" "+emp2.emp_id );
+
+	}
+
+}

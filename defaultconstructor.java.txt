@@ -1,0 +1,17 @@
+package July2023;
+
+public class defaultconstructor {
+	
+	//we didnt define any constructor here compliner automatically construct a constructor and printed value as 0 and null.
+	int i;
+	String c;
+	char  d;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			
+		defaultconstructor t = new defaultconstructor();
+		System.out.println(t.i+" "+t.c+ " "+t.d);
+	}
+
+}

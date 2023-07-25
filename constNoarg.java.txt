@@ -1,0 +1,15 @@
+package July2023;
+
+public class constNoarg {
+	
+	constNoarg()
+	{
+		System.out.println("NO ARGUMENT CONSTRUCTOR");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		constNoarg t = new constNoarg();
+		
+	}
+
+}

@@ -1,0 +1,44 @@
+package July2023;
+//intialzing value in object using method
+
+
+public class Animal2 {
+	
+	String color;
+	int age;
+	void initObj(String c,int a)
+	{
+		color =c;
+		age =a;
+		
+	}
+	
+	void display()
+	{
+		System.out.println( color+" "+age);
+		
+	}
+	public static void main(String[] args) {
+			Animal2 buzo = new Animal2();
+			Animal2 rambo = new Animal2();
+			Animal2 tommy = new Animal2();
+			Animal2 tuffy = new Animal2();
+			System.out.println("The color and age of buzo is:");
+			buzo.initObj("black", 12);
+			buzo.display();
+			System.out.println("The color and age of rambo is:");
+			rambo.initObj("brown",10);
+			rambo.display();
+			System.out.println("The color and age of tommy is:");
+			tommy.initObj("Golden", 14);
+			tommy.display();
+			System.out.println("The color and age of tuffy is:");
+			tuffy.initObj("White", 13);
+			tuffy.display();
+			
+			
+			
+
+	}
+
+}

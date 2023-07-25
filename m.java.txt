@@ -1,0 +1,43 @@
+package July2023;
+// Heirachical inheritance
+
+public class m {
+		void display() {
+			System.out.println("m class method");
+		}
+	public static void main(String[] args) {
+		System.out.println("Calling through m class object");
+		a  obj1 = new a();
+		e obj2 = new e();
+		f obj3 = new f();
+		obj1.display();
+	System.out.println("----------------------------------");
+		
+		System.out.println("Calling through e class object");
+		
+		obj2.display();
+		obj2.print();
+		System.out.println("----------------------------------");
+		System.out.println("Calling through f class object");
+		obj3.display();
+		
+		obj3.println();
+		
+	}
+
+}
+
+class e extends m{
+	void print() {
+		System.out.println("e class Method");
+		
+	}
+	
+}
+
+class f extends m{
+	void println() {
+		System.out.println("f class Method");
+	}
+	
+}

@@ -1,0 +1,43 @@
+package July2023;
+// multilevel inheritance
+
+public class a {
+		void display() {
+			System.out.println("A class method");
+		}
+	public static void main(String[] args) {
+		System.out.println("Calling through a class object");
+		a  obj1 = new a();
+		b obj2 = new b();
+		c obj3 = new c();
+		obj1.display();
+	System.out.println("----------------------------------");
+		
+		System.out.println("Calling through b class object");
+		
+		obj2.display();
+		obj2.print();
+		System.out.println("----------------------------------");
+		System.out.println("Calling through c class object");
+		obj3.display();
+		obj3.print();
+		obj3.println();
+		
+	}
+
+}
+
+class b extends a{
+	void print() {
+		System.out.println("B class Method");
+		
+	}
+	
+}
+
+class c extends b{
+	void println() {
+		System.out.println("C class Method");
+	}
+	
+}

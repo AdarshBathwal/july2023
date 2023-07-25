@@ -1,0 +1,25 @@
+package July2023;
+ 
+ class single_inher{
+	
+	void display() {
+	System.out.println("I am a method of class singleinher");
+	}
+	public static void main(String[] args)
+	{
+		single_inher a = new single_inher();
+		a.display();
+		inherit b = new inherit();
+		b.print();
+	}
+	
+}
+
+class inherit extends single_inher{
+	void print() {
+		System.out.println("I am a method of class inherit");
+	}
+	
+	
+			
+}

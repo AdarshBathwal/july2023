@@ -1,0 +1,36 @@
+package July2023;
+
+public final class loop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=190;
+			while(a>100)
+			{
+				System.out.println("The value of a is:"+a);
+				a=a-10;
+			}
+			
+			
+			int b = 10;
+			do
+			{
+				System.out.println("The value of B is:"+b);
+				b=b-1;
+			}while (b<5);
+			
+			
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+	}
+
+}

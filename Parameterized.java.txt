@@ -1,0 +1,17 @@
+package July2023;
+
+public class Parameterized {
+	
+	Parameterized(int a){
+		System.out.println("Parameterized Constructor");
+		System.out.println("Value of a= "+a);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Parameterized t = new Parameterized(10);
+
+	}
+
+}
